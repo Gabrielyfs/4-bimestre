@@ -8,7 +8,8 @@ export default function TabsLayout() {
             headerShown: true,
             headerStyle: {
                 backgroundColor: "#2196f3"
-            }
+            },
+            headerTintColor: "#fff"
         }}>
             <Tabs.Screen name="index" options={{title:"Timeline", tabBarIcon: ({color, size}) => (<Ionicons name="home" size={size} color={color}/>)}} />
             <Tabs.Screen name="profile" options={{title:"Perfil", tabBarIcon: ({color, size}) => ( <Ionicons name="person" size={size} color={color}/>)}} />
