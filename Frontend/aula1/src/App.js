@@ -1,5 +1,8 @@
 import './App.css';
+import Contador from './components/contador/contador';
 import DescriptionTitle from './components/DescriptionTitle/DescriptionTitle';
+import Digitador from './components/Digitador/Digitador';
+import Formulario from './components/Formulario/Formulario';
 import TextTitle from './components/TextTitle/TextTitle';
 
 
@@ -15,10 +18,10 @@ function App() {
       descricao={"Uma aula de frontend"}
       />
 
-      <DescriptionTitle
-      titulo={"Aula de BackEnd"}
-      descricao={"Uma aula de BackEnd"}
-      />
+      <Contador />
+      <Formulario/>
+
+      <Digitador/>
     </div>
   );
 }
