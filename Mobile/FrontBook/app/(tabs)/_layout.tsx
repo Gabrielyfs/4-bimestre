@@ -13,7 +13,7 @@ export default function TabsLayout() {
         }}>
             <Tabs.Screen name="index" options={{title:"Timeline", tabBarIcon: ({color, size}) => (<Ionicons name="home" size={size} color={color}/>)}} />
             <Tabs.Screen name="profile" options={{title:"Perfil", tabBarIcon: ({color, size}) => ( <Ionicons name="person" size={size} color={color}/>)}} />
-
+ 
         </Tabs>
     )
 }

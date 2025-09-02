@@ -3,6 +3,7 @@ import Contador from './components/contador/contador';
 import DescriptionTitle from './components/DescriptionTitle/DescriptionTitle';
 import Digitador from './components/Digitador/Digitador';
 import Formulario from './components/Formulario/Formulario';
+import Listagem from './components/listagem/listagem';
 import TextTitle from './components/TextTitle/TextTitle';
 
 
@@ -22,6 +23,8 @@ function App() {
       <Formulario/>
 
       <Digitador/>
+
+      <Listagem/>
     </div>
   );
 }
